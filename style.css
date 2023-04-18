@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  animation: color-transition 5s ease-in-out infinite;
+  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px yellow, 0 0 150px yellow, 0 0 170px yellow;
+}
+
+@keyframes color-transition {
+  0% {
+    color: red;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: yellow;
+  }
+}
