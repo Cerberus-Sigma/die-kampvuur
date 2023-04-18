@@ -25,3 +25,9 @@ h1 {
     color: yellow;
   }
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
