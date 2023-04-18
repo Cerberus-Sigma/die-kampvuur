@@ -3,11 +3,16 @@ body {
 }
 
 h1 {
-  text-align: center;
-  color: red;
-  animation: color-transition 5s ease-in-out infinite;
-  text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px yellow, 0 0 150px yellow, 0 0 170px yellow;
-}
+    text-align: center;
+    color: red;
+    animation: color-transition 5s ease-in-out infinite;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px orange, 0 0 70px orange, 0 0 80px orange, 0 0 100px yellow, 0 0 150px yellow, 0 0 170px yellow;
+    font-size: 150%; /* increase font size by 50% */
+    position: absolute; /* position the element absolutely */
+    top: 50%; /* position the top edge of the element at 50% of the viewport height */
+    left: 50%; /* position the left edge of the element at 50% of the viewport width */
+    transform: translate(-50%, -50%); /* move the element up and left by 50% of its own width and height */
+  }  
 
 @keyframes color-transition {
   0% {
